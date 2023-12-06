@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="hi"
+                 name="Introduction to Machine Learning"
+                 start-page="Table-Of-Contents.md">
+    <toc-element topic="Table-Of-Contents.md"/>
+    <toc-element topic="Empty-MD-Topic.md">
+        <toc-element topic="Empty-MD-Toapic.md"/>
+        <toc-element topic="Applications-and-Importance.md"/>
+    </toc-element>
+    <toc-element topic="Linear-Regression-A-Starting-Point.md">
+        <toc-element topic="Understanding-Linear-Regression.md"/>
+        <toc-element topic="Applying-Linear-Regression-to-Illustrate-Basic-ML-Concepts.md"/>
+    </toc-element>
+    <toc-element topic="Understanding-Parameters-and-Hyperparameters.md">
+        <toc-element topic="Defining-Parameters-and-Hyperparameters-in-Context.md"/>
+        <toc-element topic="Significance-in-Model-Training.md"/>
+    </toc-element>
+    <toc-element topic="Introduction-to-Loss-Functions.md">
+        <toc-element topic="Exploring-Loss-Functions-through-LInear-Regression.md"/>
+        <toc-element topic="Role-in-Machine-Learning.md"/>
+    </toc-element>
+    <toc-element topic="Exploring-Gradient-Descent.md">
+        <toc-element topic="Concept-of-Gradient-Descent-Illustrated-with-Linear-Regression.md"/>
+        <toc-element topic="Its-Role-in-Optimization.md"/>
+    </toc-element>
+    <toc-element topic="Conclusion.md">
+        <toc-element topic="Summary-of-Key-Learnings-from-Linear-Regression.md"/>
+        <toc-element topic="Integrating-Key-Terms-and-Concepts.md"/>
+        <toc-element topic="Next-Steps-in-Learning-Machine-Learning.md"/>
+    </toc-element>
+</instance-profile>
