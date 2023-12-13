@@ -8,10 +8,8 @@ Linear Regression is a statistical method used to model the relationship between
 
 ### Mathematical Representation
 The linear relationship in linear regression is often represented as:
-<code-block lang="tex">
-\begin{equation}
+<code-block>
 y=mx+b
-\end{equation}
 </code-block>
 
 where:

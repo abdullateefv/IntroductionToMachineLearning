@@ -41,10 +41,8 @@ These parameters are what the model learns through procedured trial and error du
 
 Given parameters that have been tweaked and tuned, the model can transform inputs to predict outputs. Therefore, it is the representation of what has been learned. In linear regression the model is simply the formula of the best-fit line with input parameters (slope and intercept)
 
-<code-block lang="tex">
-\begin{equation}
-y=mx+b
-\end{equation}
+<code-block>
+    y=mx+b
 </code-block>
 
 After tuning the slope and intercept parameters, the resulting linear equation is what we refer to as our trained model.
@@ -65,11 +63,9 @@ Unlike parameters, hyperparameters are not learned from the data. They are set p
 A loss function evaluates how well your model predicts the target variable by comparing model predicted values to the actual values. From this comparison, the loss function calculates a score that gives feedback to the model on the appropriateness of its current set of parameters. In linear regression, a simple example would be the sum of the errors, but a more common metric is Mean Squared Error (MSE):
 
 ### Understanding MSE:
-<code-block lang="tex">
-    \begin{equation}
-    MSE = \frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y_i})^2 
-    \end{equation}
-</code-block>
+
+<img src="MSE.png"/>
+
 where:
 - ( y_i ) is the actual value.
 - ( y-hat_i ) is the predicted value.

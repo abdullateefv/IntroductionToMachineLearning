@@ -17,19 +17,8 @@ In traditional programming, we input **rules** (algorithms) and **data** to get 
 <p>Machine learning, artificial intelligence, and deep learning are distinct terms that are often used interchangeably.
 Artificial Intelligence (AI) is a broad field focused on creating smart machines capable of performing tasks that typically require human intelligence; Machine Learning (ML) is a subset of AI that involves training algorithms to learn from and make predictions or decisions based on data; and Deep Learning (DL) is a subset of ML that uses neural networks with many layers to learn from vast amounts of data.</p>
 
-```mermaid
-stateDiagram-v2
-    AI: Artificial Intelligence
-    ML: Machine Learning
-    DL: Deep Learning
+<img src="Definitions.png"/>
 
-    AI --> ML: Subset of AI
-    ML --> DL: Subset of ML
-
-    AI : Broad field focused on creating machines capable of human-like intelligence.
-    ML : Involves training algorithms to learn from data.
-    DL : Uses neural networks to learn from vast amounts of data.
-```
 </procedure>
 
 ## 1.2 Applications of Machine Learning
