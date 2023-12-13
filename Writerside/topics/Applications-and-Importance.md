@@ -14,71 +14,13 @@ Machine Learning (ML) is revolutionizing various industries by providing innovat
 
 <tabs>
   <tab title="IBM Watson Health">
-    <code-block lang="plantuml">
-    @startuml
-    left to right direction
-    actor Patient as p
-    (IBM Watson AI) as IBM
-    (Treatment Suggestion) as TM
-    package Clinical-Data {
-      usecase "Preventative Options" as UC1
-      usecase "Exercise" as UC2
-      usecase "Specialists" as UC3
-      usecase "Family History" as UC4
-      usecase "Diet" as UC5
-      usecase "Personal Health History" as UC6
-    }
-    UC1 --> IBM
-    UC2 --> IBM
-    UC3 --> IBM
-    UC4 --> IBM
-    UC5 --> IBM
-    UC6 --> IBM
-    IBM --> TM
-    TM --> p
-    @enduml
-    </code-block>
+    <img src="IBMWatsonHealth.png"/>
   </tab>
   <tab title="Deep Genomics">
-    <code-block lang="plantuml">
-    @startuml
-    state "Patient Genetic Mutations" as PGM 
-    PGM : Can cause disease by coding for bad protein production
-    state "Deep Genomics AI" as AI
-    AI : Predicts effects of mutations
-    AI : Identifies targets across the genome
-    AI : Systematically explores of biological data
-    state "Steric Blocking Oligonucleotides" as SBO
-    SBO : Medicines programmed to override mutations
-    SBO : Increase good protein production, decrease bad ones
-    state "AI Prediction" as AIP
-    AIP : Predict which designs will be effective
-    AIP : Learn RNA processing instructions
-    AIP : Determine protein production levels
-    PGM --> AI : Analyzed by Deep Genomics AI
-    AI --> SBO : AI designs therapies
-    SBO --> AIP : Predict effective treatments
-    @enduml
-    </code-block>
+    <img src="DeepGenomics.png"/>
   </tab>
   <tab title="Atomwise">
-    <code-block lang="plantuml">
-    @startuml
-    state "Existing Drugs & Disease Database" as EDDD
-    EDDD --> AtomwiseAI : 1. Process and Analyze
-    state "Atomwise AI" as AtomwiseAI {
-    state "AI Algorithms \n Molecular Modeling" as AI1
-    state "Drug-Disease Matching \n Molecular Compatabilty Analysis" as AI2
-    state "Prediction and Analysis \n Repurposed Drug Candidates" as AI3
-    AI1 --> AI2 : 2. Match Drugs to Diseases
-    AI2 --> AI3 : 3. Generate Predictions
-    }
-    state "Validation and Testing \n Lab/Clinical Trials" as AI4
-    AtomwiseAI --> AI4 : 4. Validate Predictions
-    state "Repurposed Drugs" as RD
-    AI4 --> RD : 5. Identify Repurpose-able Drugs
-    @enduml
-    </code-block>
+    <img src="Atomwise.png"/>
   </tab>
 </tabs>
 
