@@ -10,4 +10,75 @@
         <description>Created after removal of "This is the first topic" from Help Instance</description>
         <accepts>Default-topic.html</accepts>
     </rule>
+    <rule id="e03ce2f">
+        <description>Created after removal of "Defining Parameters and Hyperparameters in Context" from Introduction to
+            Machine Learning
+        </description>
+        <accepts>Defining-Parameters-and-Hyperparameters-in-Context.html</accepts>
+    </rule>
+    <rule id="6693c779">
+        <description>Created after removal of "Significance in Model Training" from Introduction to Machine Learning
+        </description>
+        <accepts>Significance-in-Model-Training.html</accepts>
+    </rule>
+    <rule id="73e1dd95">
+        <description>Created after removal of "Exploring Loss Functions through Linear Regression" from Introduction to
+            Machine Learning
+        </description>
+        <accepts>Exploring-Loss-Functions-through-LInear-Regression.html</accepts>
+    </rule>
+    <rule id="18389d84">
+        <description>Created after removal of "Role in Machine Learning" from Introduction to Machine Learning
+        </description>
+        <accepts>Role-in-Machine-Learning.html</accepts>
+    </rule>
+    <rule id="599bc751">
+        <description>Created after removal of "Concept of Gradient Descent Illustrated with Linear Regression" from
+            Introduction to Machine Learning
+        </description>
+        <accepts>Concept-of-Gradient-Descent-Illustrated-with-Linear-Regression.html</accepts>
+    </rule>
+    <rule id="17cbeeb7">
+        <description>Created after removal of "Its Role in Optimization" from Introduction to Machine Learning
+        </description>
+        <accepts>Its-Role-in-Optimization.html</accepts>
+    </rule>
+    <rule id="1c6ad0c2">
+        <description>Created after removal of "Summary of Key Learnings from Linear Regression" from Introduction to
+            Machine Learning
+        </description>
+        <accepts>Summary-of-Key-Learnings-from-Linear-Regression.html</accepts>
+    </rule>
+    <rule id="15bd0ae9">
+        <description>Created after removal of "Integrating Key Terms and Concepts" from Introduction to Machine
+            Learning
+        </description>
+        <accepts>Integrating-Key-Terms-and-Concepts.html</accepts>
+    </rule>
+    <rule id="52b45aa7">
+        <description>Created after removal of "Next Steps in Learning Machine Learning" from Introduction to Machine
+            Learning
+        </description>
+        <accepts>Next-Steps-in-Learning-Machine-Learning.html</accepts>
+    </rule>
+    <rule id="7f5879dc">
+        <description>Created after removal of "Understanding Parameters and Hyperparameters" from Introduction to
+            Machine Learning
+        </description>
+        <accepts>Understanding-Parameters-and-Hyperparameters.html</accepts>
+    </rule>
+    <rule id="3d43a391">
+        <description>Created after removal of "Introduction to Loss Functions" from Introduction to Machine Learning
+        </description>
+        <accepts>Introduction-to-Loss-Functions.html</accepts>
+    </rule>
+    <rule id="23e8eda0">
+        <description>Created after removal of "Exploring Gradient Descent" from Introduction to Machine Learning
+        </description>
+        <accepts>Exploring-Gradient-Descent.html</accepts>
+    </rule>
+    <rule id="195b024a">
+        <description>Created after removal of "Conclusion" from Introduction to Machine Learning</description>
+        <accepts>Conclusion.html</accepts>
+    </rule>
 </rules>
