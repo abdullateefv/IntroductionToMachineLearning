@@ -1,5 +1,5 @@
 # Introduction To Machine Learning
-### A Techical Writing Project
+### A Technical Writing Project
 
 Technical Documentation for beginners looking to get started with Machine Learning
 
